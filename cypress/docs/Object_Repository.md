@@ -6,7 +6,7 @@ Manajemen object diperlukan jika dalam step menggunakan banyak variable komponen
 
 1. Go to `cypress/support/` (optional directory)
 2. Buat directory `google_object`
-3. Buat file `google_page_object`
+3. Buat file `google_page_object.js`
 4. Buat scripts
 
 ```javascript
