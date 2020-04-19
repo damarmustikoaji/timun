@@ -34,7 +34,7 @@ $ npm run cypress -- -e TAGS='@ralaliSearchTest' --browser chrome
 
 ## [How to add Env](docs/Env.md)
 
-## [How to use Cypress Desktop](Cypress_Desktop.md)
+## [How to use Cypress Desktop](docs/Cypress_Desktop.md)
 
 ## [How to use Seed Data](docs/Seed_Data.md)
 
