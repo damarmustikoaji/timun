@@ -46,5 +46,6 @@ module.exports = (on, config) => {
 
   config.env = config.env || {}
   config.env.GOOGLE_URL = process.env.GOOGLE_URL
+  config.env.RALALI_WEB_URL = process.env.RALALI_WEB_URL
   return config
 }
