@@ -12,4 +12,4 @@ npm run cypress-ui
 
 And then open the project
 
-<img src="docs/img/cypress_desktop_run.gif" width="800"/>
+<img src="img/cypress_desktop_run.gif" width="800"/>
