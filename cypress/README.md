@@ -6,12 +6,12 @@
 
 > Cucumber is a software tool used by computer programmers that supports behavior-driven development (BDD). Central to the Cucumber BDD approach is its plain language parser called Gherkin. https://cucumber.io/
 
-### [Prerequisites](../)
+### [Prerequisites](../../../)
 
-### [How to Getting Started](../)
+### [How to Getting Started](../../../)
 
-### [How to Run](../)
+### [How to Run](../../../)
 
 ### [Documents](docs)
 
-### [Reference](../)
+### [Reference](../../../)
