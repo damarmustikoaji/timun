@@ -30,24 +30,12 @@ $ npm run cypress -- -e TAGS='@ralaliSearchTest' --browser chrome
 
 ## [How to write](docs/)
 
-## [How to generate report](docs/Report.md)
+## [How to generate Report](docs/Report.md)
 
-## [How to add env](docs/Env.md)
+## [How to add Env](docs/Env.md)
 
-## Cypress Desktop
+## [How to use Cypress Desktop](Cypress_Desktop.md)
 
-1. You can use node module
-```sh
-npm run cypress-ui
-```
+## [How to use Seed Data](docs/Seed_Data.md)
 
-2. Or install the cypress desktop
-- https://docs.cypress.io/guides/getting-started/installing-cypress.html
-
-And then open the project
-
-<img src="docs/img/cypress_desktop_run.gif" width="800"/>
-
-## [How to use seed data](docs/Seed_Data.md)
-
-## [How to setup project id cypress](docs/ProjectID_Cypress.md)
+## [How to Setup Project ID Cypress](docs/ProjectID_Cypress.md)
