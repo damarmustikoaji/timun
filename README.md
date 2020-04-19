@@ -16,7 +16,7 @@
 
 ```sh
 $ git clone "url this project"
-$ cd cypress-x-cucumber
+$ cd cypresswithcucumber
 $ npm install
 $ cp .env.example .env
 ```
@@ -24,7 +24,7 @@ $ cp .env.example .env
 ### Data Test
 All data test for automation testing
 
-Go to `cypress/data/`
+Go to `cypress/fixtures/`
 
 ### How to Run:
 
