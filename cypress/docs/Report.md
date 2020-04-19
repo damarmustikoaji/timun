@@ -18,6 +18,10 @@ Kemudian untuk menampilkan di file html report di browser dengan:
 $ npm run open-reports
 ```
 
+<img src="img/cucumber_report1.png" width="800"/>
+
+<img src="img/cucumber_report2.png" width="800"/>
+
 ## Cypress Dashboard
 
 please visit cypress dashboard `https://dashboard.cypress.io/projects/[projectId]/runs`
