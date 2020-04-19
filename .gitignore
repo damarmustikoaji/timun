@@ -16,5 +16,4 @@ yarn.lock
 /cypress/node_modules
 /cypress/reports
 /cypress/screenshots
-/cypress/seed_data
 /cypress/videos

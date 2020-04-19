@@ -32,11 +32,11 @@ Go to `cypress/fixtures/`
 - use `cypress` for local testing (not uploading the report)
 
 ```sh
-$ npm run cypress -- -e TAGS=''
-$ npm run cypress -- -e TAGS='not @skip'
-$ npm run cypress -- -e TAGS='@tagNameScenario'
-$ npm run cypress -- -e TAGS='' --browser chrome
-$ npm run cypress-ui
+$ npm run cypress -- -e TAGS=''                     | All test
+$ npm run cypress -- -e TAGS='not @skip'            | All test without tag @skip
+$ npm run cypress -- -e TAGS='@tagNameScenario'     | Only @tagNameScenario
+$ npm run cypress -- -e TAGS='' --browser chrome    | Launch the browser
+$ npm run cypress-ui                                | Open the Cypress Desktop from node_modules
 ```
 
 ### [Documents](cypress)

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "clean-reports": "rm -fr cypress/reports/results/*.json cypress/reports/features cypress/reports/index.html",
-    "test-webui": "npm run clean-reports & ./node_modules/.bin/cypress-tags run --spec \"cypress/integration/*.feature\" --record --key 123-456-789-10",
+    "test-webui": "npm run clean-reports & ./node_modules/.bin/cypress-tags run --spec \"cypress/integration/*.feature\" --record --key c663d937-86b1-4c8b-9b7b-12483f15acda",
     "cypress": "npm run clean-reports & ./node_modules/.bin/cypress-tags run --spec \"cypress/integration/*.feature\"",
     "cypress-ui": "./node_modules/.bin/cypress open",
     "reports": "node cypress/cypress_report.js",
