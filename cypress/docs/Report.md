@@ -24,6 +24,10 @@ $ npm run open-reports
 
 ## Cypress Dashboard
 
+<img src="img/cypress_desktop_run_report.gif" width="800"/>
+
 please visit cypress dashboard `https://dashboard.cypress.io/projects/[projectId]/runs`
+
+<img src="img/cypress_dashboard_run_report.gif" width="800"/>
 
 #### [How to Setup Project ID Cypress](ProjectID_Cypress.md)

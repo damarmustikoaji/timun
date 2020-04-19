@@ -15,8 +15,7 @@ if (deviceName === 'darwin') {
 }
 
 const d = new Date()
-const date = `${d.getDate()}-${d.getMonth() +
-  1}-${d.getFullYear()} ${d.getHours()}:${d.getMinutes()}`
+const date = `${d.getDate()}-${d.getMonth() + 1}-${d.getFullYear()} ${d.getHours()}:${d.getMinutes()}`
 
 report.generate({
   jsonDir: 'cypress/reports/results/',

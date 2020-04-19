@@ -4,8 +4,6 @@ const GooglePage = require('../../../support/google_object/google_page_object')
 
 const obj = new GooglePage()
 
-const response = require('../../../fixtures/response_status_code.json')
-
 Given(`I go to the google page`, () => {
   cy.visit(Cypress.env('GOOGLE_URL'))
 })
