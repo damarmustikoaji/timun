@@ -11,7 +11,7 @@ $ cp .env.example .env
 
 Contoh kita membutuhkan variable untuk url ralali.com, maka kita perlu membuat `RALALI_WEB_URL` beserta value `https://www.ralali.com`
 ```json
-BACKOFFICE_URL=xxx
+GOOGLE_URL=xxx
 
 RALALI_WEB_URL=https://www.ralali.com
 ```
@@ -27,7 +27,7 @@ module.exports = (on, config) => {
   on('file:preprocessor', cucumber())
 
   config.env = config.env || {}
-  config.env.BACKOFFICE_URL = process.env.BACKOFFICE_URL
+  config.env.GOOGLE_URL = process.env.GOOGLE_URL
   return config
 }
 ```
@@ -41,7 +41,7 @@ module.exports = (on, config) => {
   on('file:preprocessor', cucumber())
 
   config.env = config.env || {}
-  config.env.BACKOFFICE_URL = process.env.BACKOFFICE_URL
+  config.env.GOOGLE_URL = process.env.GOOGLE_URL
   config.env.RALALI_WEB_URL = process.env.RALALI_WEB_URL
   return config
 }
