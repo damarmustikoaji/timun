@@ -53,7 +53,7 @@ Given(`I query SQL database to updating the data on the table users`, () => {
 })
 ```
 
-4. Membuat query (optional), bisa juga ditaruh didalam step tanpa memisahkan file. Contoh `seed_data/users_query.js`
+4. Membuat query file (optional), bisa juga ditaruh didalam step tanpa memisahkan file. Contoh `seed_data/users_query.js`
 
 ```javascript
 module.exports = {
