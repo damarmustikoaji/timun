@@ -47,3 +47,7 @@ npm run cypress-ui
 And then open the project
 
 <img src="docs/img/cypress_desktop_run.gif" width="800"/>
+
+## [How to use seed data](docs/Seed_Data.md)
+
+## [How to setup project id cypress](docs/ProjectID_Cypress.md)
