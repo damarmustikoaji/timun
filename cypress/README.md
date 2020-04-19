@@ -39,3 +39,5 @@ $ npm run cypress -- -e TAGS='@ralaliSearchTest' --browser chrome
 ## [How to use Seed Data](docs/Seed_Data.md)
 
 ## [How to Setup Project ID Cypress](docs/ProjectID_Cypress.md)
+
+## [How to manage Object Repository](docs/Object_Repository.md)
