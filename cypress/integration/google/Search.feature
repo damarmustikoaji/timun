@@ -1,7 +1,7 @@
-        @loginTest
+@googleTest
 Feature: Google - Search
 
-  I want to search an article on Google
+              I want to search an article on Google
         Background: Go to Google page
             Given I go to the google page
              Then I see "Google" in the title

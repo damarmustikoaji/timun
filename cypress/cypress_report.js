@@ -37,7 +37,7 @@ report.generate({
   customData: {
     title: 'Run info',
     data: [
-      { label: 'Apps', value: 'Fintech Backoffice' },
+      { label: 'Apps', value: 'Cypress With Cucumber' },
       { label: 'Release', value: '-' },
       { label: 'Date Time', value: date },
     ],

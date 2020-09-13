@@ -1,7 +1,7 @@
-        @ralaliTest
+@ralaliTest
 Feature: Ralali Website - Test
 
-  I want to access the Ralali Website
+              I want to access the Ralali Website
 
         @positiveTesting
         Scenario: As a User, I should be able to successfully access the ralali website
