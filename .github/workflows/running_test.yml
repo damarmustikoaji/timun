@@ -29,5 +29,5 @@ jobs:
     - run: sudo apt-get update
     - run: yarn install
     - run: cp .env.sample .env
-    - run: npm run cypress -- -e TAGS=''
+    - run: npm run test-webui -- -e TAGS=''
     - run: npm run reports
