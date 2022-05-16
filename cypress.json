@@ -1,9 +1,9 @@
 {
-  "projectId": "df9ke4",
+  "projectId": "7tcyw1",
   "defaultCommandTimeout": 60000,
   "animationDistanceThreshold": 5,
   "baseUrl": null,
-  "blacklistHosts": null,
+  "blockHosts": null,
   "chromeWebSecurity": false,
   "env": {},
   "execTimeout": 60000,

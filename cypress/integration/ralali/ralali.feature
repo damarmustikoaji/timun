@@ -6,4 +6,4 @@ Feature: Ralali Website - Test
         @positiveTesting
         Scenario: As a User, I should be able to successfully access the ralali website
             Given I go to ralali website page
-             Then I see "B2B Marketplace Indonesia - Harga Grosir dari Ribuan Penjual | Ralali.com" in the title
+             Then I see "Wholesale Marketplace - Pusat Toko Grosir Online Indonesia | Ralali.com" in the title

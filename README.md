@@ -16,7 +16,7 @@
 
 ```sh
 $ git clone "url this project"
-$ cd cypresswithcucumber
+$ cd [project]
 $ npm install
 $ cp .env.example .env
 ```

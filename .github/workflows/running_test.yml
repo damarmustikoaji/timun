@@ -12,22 +12,15 @@ on:
     - cron: '0 10 * * *'
 
 jobs:
-  build:
-
+  cypress-run:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [12.14.1]
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: sudo apt-get update
-    - run: yarn install
-    - run: cp .env.sample .env
-    - run: npm run test-webui -- -e TAGS=''
-    - run: npm run reports
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: sudo apt-get update
+      - run: yarn install
+      - run: cp .env.sample .env
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        run: npm run test-webui -- -e TAGS=''
+      - run: npm run reports
