@@ -22,7 +22,6 @@ jobs:
       with:
         path: '**/node_modules'
         key: ${{ runner.os }}-modules-${{ hashFiles('**/lock.json') }}
-    - run: sudo apt-get update
     - run: yarn install
     - run: npm run test-webui -- -e TAGS=''
     - run: npm run reports
