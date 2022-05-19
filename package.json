@@ -11,7 +11,7 @@
     "open-reports": "open 'cypress/reports/index.html'",
     "clean": "rm -rf node_modules package-lock.json yarn.lock"
   },
-  "devDependencies": {
+  "dependencies": {
     "cypress": "^4.4.0",
     "cypress-cucumber-preprocessor": "^4.2.1",
     "dotenv": "^8.2.0",
@@ -27,6 +27,18 @@
     "lint-staged": "^10.1.6",
     "multiple-cucumber-html-reporter": "^1.16.1",
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-standard": "^14.0.1",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.6"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
