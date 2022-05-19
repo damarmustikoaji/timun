@@ -18,7 +18,15 @@
 $ git clone "url this project"
 $ cd [project]
 $ npm install
-$ cp .env.example .env
+```
+
+### Env
+
+Setup file .env
+
+```sh
+GOOGLE_URL=
+RALALI_WEB_URL=
 ```
 
 ### Data Test
