@@ -39,6 +39,10 @@ $ npm run cypress -- -e TAGS='' --browser chrome    | Launch the browser
 $ npm run cypress-ui                                | Open the Cypress Desktop from node_modules
 ```
 
+### Report
+
+Cypress Dashboard https://dashboard.cypress.io/projects/7tcyw1/runs
+
 ### [Documents](cypress)
 
 ### Reference
