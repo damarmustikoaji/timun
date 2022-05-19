@@ -13,7 +13,7 @@ env:
   RALALI_WEB_URL: ${{ secrets.RALALI_WEB_URL }}
 
 jobs:
-  build:
+  testing:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
