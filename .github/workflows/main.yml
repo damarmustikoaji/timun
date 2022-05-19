@@ -25,3 +25,9 @@ jobs:
     - run: yarn install
     - run: npm run test-webui -- -e TAGS=''
     - run: npm run reports
+    - name: Reporting
+      if: always()
+      uses: actions/upload-artifact@v2
+      with:
+        name: Reports
+        path: reports
