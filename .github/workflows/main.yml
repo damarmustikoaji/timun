@@ -10,7 +10,7 @@ on:
     
 env:
   GOOGLE_URL: ${{ secrets.GOOGLE_URL }}
-  RALALI_WEB_URL: 'https://kumparan.com'
+  RALALI_WEB_URL: ${{ secrets.RALALI_WEB_URL }}
 
 jobs:
   testing:
