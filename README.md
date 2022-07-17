@@ -1,3 +1,4 @@
+[![Running Test](https://github.com/damarmustikoaji/timun/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/damarmustikoaji/timun/actions/workflows/main.yml)
 #  Boilerplate WEBUI Automation Testing
 
 <img src="cypress/docs/img/cypress_cucumber_logo.png" width="500"/>
